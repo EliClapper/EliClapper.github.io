@@ -65,7 +65,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 431px;
-  background-image: url("images/jscoding.jpg");
+  background-image: url("../images/jscoding.jpg");
   background-position: 50% 50%;
 }
 
@@ -146,7 +146,7 @@
 
 .u-section-4 .u-image-1 {
   min-height: 431px;
-  background-image: url("images/microfoon.jpg");
+  background-image: url("../images/microfoon.jpg");
   background-position: 50% 50%;
 }
 
@@ -269,7 +269,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 431px;
-  background-image: url("images/oostenrijk.jpeg");
+  background-image: url("../images/oostenrijk.jpeg");
   background-position: 50% 50%;
 }
 
