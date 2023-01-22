@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hey you, run deze code hieronder in Rstudio</h1>
+    <code>
+        dat<- data.frame(t=seq(0, 2*pi, by=0.1) ) <br>
+        xhrt <- function(t) 16*sin(t)^3 <br>
+        yhrt <- function(t) 13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t) <br>
+        dat$y=yhrt(dat$t) <br>
+        dat$x=xhrt(dat$t) <br>
+        with(dat, plot(x,y, type="l", ylab = 'Cerissa', xlab = "Eli", main = "ILY")) <br>
+        with(dat, polygon(x,y, col="hotpink", border = )) <br>
+    </code>
+</body>
+
+</html>
